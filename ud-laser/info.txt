@@ -1,0 +1,7 @@
+how to use: 
+
+RegisterCommand('laser', function()
+    exports['ud-laser']:ToggleCreationLaser(function(coords)
+        print("hello")
+    end)
+end)
